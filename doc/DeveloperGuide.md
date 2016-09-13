@@ -51,3 +51,24 @@
 * Problem: Test fails during the very first time.<br>
   Solution: The output of the very first test run could be slightly different because the program
   creates a new storage file. Tests should pass from the 2nd run onwards.
+
+### User Stories.
+
+* As a user, I'd like to be able to edit persons in the addres book in case I made a mistake when adding them.
+* As a user, I'd like to be able to add more than one phone number for a given person (i.e. work/ cellular/ home).
+
+### Use Case
+
+* Software System: AddressBook
+* Use Case: Rename tag
+* Actor: User
+* Main success:
+* 1. User types in command to rename certain tag (i.e. "friends").
+* 2. User types in replacement tag (i.e. "buddies").
+* 3. User confirms (or not) with "yes/no".
+* 4. Program prints out updated list.
+
+### Non Functional Requirements
+
+* Program should provide certain private aspects by using password protection.
+* Program should respond fast to the user.
